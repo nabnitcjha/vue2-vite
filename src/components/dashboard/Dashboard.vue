@@ -4,13 +4,13 @@
     <aside class="menu-sidebar2">
        <div class="logo">
            <a href="#">
-               <img src="../../../public/images/icon/logo-white.png" alt="Cool Admin" />
+               <img src="../../../dashboard_css/images/icon/logo-white.png" alt="Cool Admin" />
            </a>
        </div>
        <div class="menu-sidebar2__content js-scrollbar1">
            <div class="account2">
                <div class="image img-cir img-120">
-                   <img src="../../../public/images/icon/avatar-big-01.jpg" alt="John Doe" />
+                   <img src="../../../dashboard_css/images/icon/avatar-big-01.jpg" alt="John Doe" />
                </div>
                <h4 class="name">john doe</h4>
                <a href="#">Sign out</a>
@@ -169,7 +169,7 @@
                    <div class="header-wrap2">
                        <div class="logo d-block d-lg-none">
                            <a href="#">
-                               <img src="../../../public/images/icon/logo-white.png" alt="CoolAdmin" />
+                               <img src="../../../dashboard_css/images/icon/logo-white.png" alt="CoolAdmin" />
                            </a>
                        </div>
                        <div class="header-button2">
@@ -267,13 +267,13 @@
        <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
            <div class="logo">
                <a href="#">
-                   <img src="../../../public/images/icon/logo-white.png" alt="Cool Admin" />
+                   <img src="../../../dashboard_css/images/icon/logo-white.png" alt="Cool Admin" />
                </a>
            </div>
            <div class="menu-sidebar2__content js-scrollbar2">
                <div class="account2">
                    <div class="image img-cir img-120">
-                       <img src="../../../public/images/icon/avatar-big-01.jpg" alt="John Doe" />
+                       <img src="../../../dashboard_css/images/icon/avatar-big-01.jpg" alt="John Doe" />
                    </div>
                    <h4 class="name">john doe</h4>
                    <a href="#">Sign out</a>
