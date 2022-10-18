@@ -1,868 +1,955 @@
 <template>
  <fragment>
-       <!-- MENU SIDEBAR-->
-    <aside class="menu-sidebar2">
-       <div class="logo">
-           <a href="#">
-               <img src="../../../dashboard_css/images/icon/logo-white.png" alt="Cool Admin" />
-           </a>
-       </div>
-       <div class="menu-sidebar2__content js-scrollbar1">
-           <div class="account2">
-               <div class="image img-cir img-120">
-                   <img src="../../../dashboard_css/images/icon/avatar-big-01.jpg" alt="John Doe" />
-               </div>
-               <h4 class="name">john doe</h4>
-               <a href="#">Sign out</a>
-           </div>
-           <nav class="navbar-sidebar2">
-               <ul class="list-unstyled navbar__list">
-                   <li class="active has-sub">
-                       <a class="js-arrow" href="#">
-                           <i class="fas fa-tachometer-alt"></i>Dashboard
-                           <span class="arrow">
-                               <i class="fas fa-angle-down"></i>
-                           </span>
-                       </a>
-                       <ul class="list-unstyled navbar__sub-list js-sub-list">
-                           <li>
-                               <a href="index.html">
-                                   <i class="fas fa-tachometer-alt"></i>Dashboard 1</a>
-                           </li>
-                           <li>
-                               <a href="index2.html">
-                                   <i class="fas fa-tachometer-alt"></i>Dashboard 2</a>
-                           </li>
-                           <li>
-                               <a href="index3.html">
-                                   <i class="fas fa-tachometer-alt"></i>Dashboard 3</a>
-                           </li>
-                           <li>
-                               <a href="index4.html">
-                                   <i class="fas fa-tachometer-alt"></i>Dashboard 4</a>
-                           </li>
-                       </ul>
-                   </li>
-                   <li>
-                       <a href="inbox.html">
-                           <i class="fas fa-chart-bar"></i>Inbox</a>
-                       <span class="inbox-num">3</span>
-                   </li>
-                   <li>
-                       <a href="#">
-                           <i class="fas fa-shopping-basket"></i>eCommerce</a>
-                   </li>
-                   <li class="has-sub">
-                       <a class="js-arrow" href="#">
-                           <i class="fas fa-trophy"></i>Features
-                           <span class="arrow">
-                               <i class="fas fa-angle-down"></i>
-                           </span>
-                       </a>
-                       <ul class="list-unstyled navbar__sub-list js-sub-list">
-                           <li>
-                               <a href="table.html">
-                                   <i class="fas fa-table"></i>Tables</a>
-                           </li>
-                           <li>
-                               <a href="form.html">
-                                   <i class="far fa-check-square"></i>Forms</a>
-                           </li>
-                           <li>
-                               <a href="calendar.html">
-                                   <i class="fas fa-calendar-alt"></i>Calendar</a>
-                           </li>
-                           <li>
-                               <a href="map.html">
-                                   <i class="fas fa-map-marker-alt"></i>Maps</a>
-                           </li>
-                       </ul>
-                   </li>
-                   <li class="has-sub">
-                       <a class="js-arrow" href="#">
-                           <i class="fas fa-copy"></i>Pages
-                           <span class="arrow">
-                               <i class="fas fa-angle-down"></i>
-                           </span>
-                       </a>
-                       <ul class="list-unstyled navbar__sub-list js-sub-list">
-                           <li>
-                               <a href="login.html">
-                                   <i class="fas fa-sign-in-alt"></i>Login</a>
-                           </li>
-                           <li>
-                               <a href="register.html">
-                                   <i class="fas fa-user"></i>Register</a>
-                           </li>
-                           <li>
-                               <a href="forget-pass.html">
-                                   <i class="fas fa-unlock-alt"></i>Forget Password</a>
-                           </li>
-                       </ul>
-                   </li>
-                   <li class="has-sub">
-                       <a class="js-arrow" href="#">
-                           <i class="fas fa-desktop"></i>UI Elements
-                           <span class="arrow">
-                               <i class="fas fa-angle-down"></i>
-                           </span>
-                       </a>
-                       <ul class="list-unstyled navbar__sub-list js-sub-list">
-                           <li>
-                               <a href="button.html">
-                                   <i class="fab fa-flickr"></i>Button</a>
-                           </li>
-                           <li>
-                               <a href="badge.html">
-                                   <i class="fas fa-comment-alt"></i>Badges</a>
-                           </li>
-                           <li>
-                               <a href="tab.html">
-                                   <i class="far fa-window-maximize"></i>Tabs</a>
-                           </li>
-                           <li>
-                               <a href="card.html">
-                                   <i class="far fa-id-card"></i>Cards</a>
-                           </li>
-                           <li>
-                               <a href="alert.html">
-                                   <i class="far fa-bell"></i>Alerts</a>
-                           </li>
-                           <li>
-                               <a href="progress-bar.html">
-                                   <i class="fas fa-tasks"></i>Progress Bars</a>
-                           </li>
-                           <li>
-                               <a href="modal.html">
-                                   <i class="far fa-window-restore"></i>Modals</a>
-                           </li>
-                           <li>
-                               <a href="switch.html">
-                                   <i class="fas fa-toggle-on"></i>Switchs</a>
-                           </li>
-                           <li>
-                               <a href="grid.html">
-                                   <i class="fas fa-th-large"></i>Grids</a>
-                           </li>
-                           <li>
-                               <a href="fontawesome.html">
-                                   <i class="fab fa-font-awesome"></i>FontAwesome</a>
-                           </li>
-                           <li>
-                               <a href="typo.html">
-                                   <i class="fas fa-font"></i>Typography</a>
-                           </li>
-                       </ul>
-                   </li>
-               </ul>
-           </nav>
-       </div>
-   </aside>
-   <!-- END MENU SIDEBAR-->
+   <!-- ======= Header ======= -->
+   <header id="header" class="header fixed-top d-flex align-items-center">
 
-   <!-- PAGE CONTAINER-->
-   <div class="page-container2">
-       <!-- HEADER DESKTOP-->
-       <header class="header-desktop2">
-           <div class="section__content section__content--p30">
-               <div class="container-fluid">
-                   <div class="header-wrap2">
-                       <div class="logo d-block d-lg-none">
-                           <a href="#">
-                               <img src="../../../dashboard_css/images/icon/logo-white.png" alt="CoolAdmin" />
-                           </a>
-                       </div>
-                       <div class="header-button2">
-                           <div class="header-button-item js-item-menu">
-                               <i class="zmdi zmdi-search"></i>
-                               <div class="search-dropdown js-dropdown">
-                                   <form action="">
-                                       <input class="au-input au-input--full au-input--h65" type="text" placeholder="Search for datas &amp; reports..." />
-                                       <span class="search-dropdown__icon">
-                                           <i class="zmdi zmdi-search"></i>
-                                       </span>
-                                   </form>
-                               </div>
-                           </div>
-                           <div class="header-button-item has-noti js-item-menu">
-                               <i class="zmdi zmdi-notifications"></i>
-                               <div class="notifi-dropdown js-dropdown">
-                                   <div class="notifi__title">
-                                       <p>You have 3 Notifications</p>
-                                   </div>
-                                   <div class="notifi__item">
-                                       <div class="bg-c1 img-cir img-40">
-                                           <i class="zmdi zmdi-email-open"></i>
-                                       </div>
-                                       <div class="content">
-                                           <p>You got a email notification</p>
-                                           <span class="date">April 12, 2018 06:50</span>
-                                       </div>
-                                   </div>
-                                   <div class="notifi__item">
-                                       <div class="bg-c2 img-cir img-40">
-                                           <i class="zmdi zmdi-account-box"></i>
-                                       </div>
-                                       <div class="content">
-                                           <p>Your account has been blocked</p>
-                                           <span class="date">April 12, 2018 06:50</span>
-                                       </div>
-                                   </div>
-                                   <div class="notifi__item">
-                                       <div class="bg-c3 img-cir img-40">
-                                           <i class="zmdi zmdi-file-text"></i>
-                                       </div>
-                                       <div class="content">
-                                           <p>You got a new file</p>
-                                           <span class="date">April 12, 2018 06:50</span>
-                                       </div>
-                                   </div>
-                                   <div class="notifi__footer">
-                                       <a href="#">All notifications</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="header-button-item mr-0 js-sidebar-btn">
-                               <i class="zmdi zmdi-menu"></i>
-                           </div>
-                           <div class="setting-menu js-right-sidebar d-none d-lg-block">
-                               <div class="account-dropdown__body">
-                                   <div class="account-dropdown__item">
-                                       <a href="#">
-                                           <i class="zmdi zmdi-account"></i>Account</a>
-                                   </div>
-                                   <div class="account-dropdown__item">
-                                       <a href="#">
-                                           <i class="zmdi zmdi-settings"></i>Setting</a>
-                                   </div>
-                                   <div class="account-dropdown__item">
-                                       <a href="#">
-                                           <i class="zmdi zmdi-money-box"></i>Billing</a>
-                                   </div>
-                               </div>
-                               <div class="account-dropdown__body">
-                                   <div class="account-dropdown__item">
-                                       <a href="#">
-                                           <i class="zmdi zmdi-globe"></i>Language</a>
-                                   </div>
-                                   <div class="account-dropdown__item">
-                                       <a href="#">
-                                           <i class="zmdi zmdi-pin"></i>Location</a>
-                                   </div>
-                                   <div class="account-dropdown__item">
-                                       <a href="#">
-                                           <i class="zmdi zmdi-email"></i>Email</a>
-                                   </div>
-                                   <div class="account-dropdown__item">
-                                       <a href="#">
-                                           <i class="zmdi zmdi-notifications"></i>Notifications</a>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </header>
-       <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
-           <div class="logo">
-               <a href="#">
-                   <img src="../../../dashboard_css/images/icon/logo-white.png" alt="Cool Admin" />
-               </a>
-           </div>
-           <div class="menu-sidebar2__content js-scrollbar2">
-               <div class="account2">
-                   <div class="image img-cir img-120">
-                       <img src="../../../dashboard_css/images/icon/avatar-big-01.jpg" alt="John Doe" />
-                   </div>
-                   <h4 class="name">john doe</h4>
-                   <a href="#">Sign out</a>
-               </div>
-               <nav class="navbar-sidebar2">
-                   <ul class="list-unstyled navbar__list">
-                       <li class="active has-sub">
-                           <a class="js-arrow" href="#">
-                               <i class="fas fa-tachometer-alt"></i>Dashboard
-                               <span class="arrow">
-                                   <i class="fas fa-angle-down"></i>
-                               </span>
-                           </a>
-                           <ul class="list-unstyled navbar__sub-list js-sub-list">
-                               <li>
-                                   <a href="index.html">
-                                       <i class="fas fa-tachometer-alt"></i>Dashboard 1</a>
-                               </li>
-                               <li>
-                                   <a href="index2.html">
-                                       <i class="fas fa-tachometer-alt"></i>Dashboard 2</a>
-                               </li>
-                               <li>
-                                   <a href="index3.html">
-                                       <i class="fas fa-tachometer-alt"></i>Dashboard 3</a>
-                               </li>
-                               <li>
-                                   <a href="index4.html">
-                                       <i class="fas fa-tachometer-alt"></i>Dashboard 4</a>
-                               </li>
-                           </ul>
-                       </li>
-                       <li>
-                           <a href="inbox.html">
-                               <i class="fas fa-chart-bar"></i>Inbox</a>
-                           <span class="inbox-num">3</span>
-                       </li>
-                       <li>
-                           <a href="#">
-                               <i class="fas fa-shopping-basket"></i>eCommerce</a>
-                       </li>
-                       <li class="has-sub">
-                           <a class="js-arrow" href="#">
-                               <i class="fas fa-trophy"></i>Features
-                               <span class="arrow">
-                                   <i class="fas fa-angle-down"></i>
-                               </span>
-                           </a>
-                           <ul class="list-unstyled navbar__sub-list js-sub-list">
-                               <li>
-                                   <a href="table.html">
-                                       <i class="fas fa-table"></i>Tables</a>
-                               </li>
-                               <li>
-                                   <a href="form.html">
-                                       <i class="far fa-check-square"></i>Forms</a>
-                               </li>
-                               <li>
-                                   <a href="calendar.html">
-                                       <i class="fas fa-calendar-alt"></i>Calendar</a>
-                               </li>
-                               <li>
-                                   <a href="map.html">
-                                       <i class="fas fa-map-marker-alt"></i>Maps</a>
-                               </li>
-                           </ul>
-                       </li>
-                       <li class="has-sub">
-                           <a class="js-arrow" href="#">
-                               <i class="fas fa-copy"></i>Pages
-                               <span class="arrow">
-                                   <i class="fas fa-angle-down"></i>
-                               </span>
-                           </a>
-                           <ul class="list-unstyled navbar__sub-list js-sub-list">
-                               <li>
-                                   <a href="login.html">
-                                       <i class="fas fa-sign-in-alt"></i>Login</a>
-                               </li>
-                               <li>
-                                   <a href="register.html">
-                                       <i class="fas fa-user"></i>Register</a>
-                               </li>
-                               <li>
-                                   <a href="forget-pass.html">
-                                       <i class="fas fa-unlock-alt"></i>Forget Password</a>
-                               </li>
-                           </ul>
-                       </li>
-                       <li class="has-sub">
-                           <a class="js-arrow" href="#">
-                               <i class="fas fa-desktop"></i>UI Elements
-                               <span class="arrow">
-                                   <i class="fas fa-angle-down"></i>
-                               </span>
-                           </a>
-                           <ul class="list-unstyled navbar__sub-list js-sub-list">
-                               <li>
-                                   <a href="button.html">
-                                       <i class="fab fa-flickr"></i>Button</a>
-                               </li>
-                               <li>
-                                   <a href="badge.html">
-                                       <i class="fas fa-comment-alt"></i>Badges</a>
-                               </li>
-                               <li>
-                                   <a href="tab.html">
-                                       <i class="far fa-window-maximize"></i>Tabs</a>
-                               </li>
-                               <li>
-                                   <a href="card.html">
-                                       <i class="far fa-id-card"></i>Cards</a>
-                               </li>
-                               <li>
-                                   <a href="alert.html">
-                                       <i class="far fa-bell"></i>Alerts</a>
-                               </li>
-                               <li>
-                                   <a href="progress-bar.html">
-                                       <i class="fas fa-tasks"></i>Progress Bars</a>
-                               </li>
-                               <li>
-                                   <a href="modal.html">
-                                       <i class="far fa-window-restore"></i>Modals</a>
-                               </li>
-                               <li>
-                                   <a href="switch.html">
-                                       <i class="fas fa-toggle-on"></i>Switchs</a>
-                               </li>
-                               <li>
-                                   <a href="grid.html">
-                                       <i class="fas fa-th-large"></i>Grids</a>
-                               </li>
-                               <li>
-                                   <a href="fontawesome.html">
-                                       <i class="fab fa-font-awesome"></i>FontAwesome</a>
-                               </li>
-                               <li>
-                                   <a href="typo.html">
-                                       <i class="fas fa-font"></i>Typography</a>
-                               </li>
-                           </ul>
-                       </li>
-                   </ul>
-               </nav>
-           </div>
-       </aside>
-       <!-- END HEADER DESKTOP-->
+<div class="d-flex align-items-center justify-content-between">
+  <a href="index.html" class="logo d-flex align-items-center">
+    <img src="../../../dashboard_css/assets/img/logo.png" alt="">
+    <span class="d-none d-lg-block">NiceAdmin</span>
+  </a>
+  <i class="bi bi-list toggle-sidebar-btn"></i>
+</div><!-- End Logo -->
 
-       <!-- BREADCRUMB-->
-       <section class="au-breadcrumb m-t-75">
-           <div class="section__content section__content--p30">
-               <div class="container-fluid">
-                   <div class="row">
-                       <div class="col-md-12">
-                           <div class="au-breadcrumb-content">
-                               <div class="au-breadcrumb-left">
-                                   <span class="au-breadcrumb-span">You are here:</span>
-                                   <ul class="list-unstyled list-inline au-breadcrumb__list">
-                                       <li class="list-inline-item active">
-                                           <a href="#">Home</a>
-                                       </li>
-                                       <li class="list-inline-item seprate">
-                                           <span>/</span>
-                                       </li>
-                                       <li class="list-inline-item">Dashboard</li>
-                                   </ul>
-                               </div>
-                               <button class="au-btn au-btn-icon au-btn--green">
-                                   <i class="zmdi zmdi-plus"></i>add item</button>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <!-- END BREADCRUMB-->
+<div class="search-bar">
+  <form class="search-form d-flex align-items-center" method="POST" action="#">
+    <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+    <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+  </form>
+</div><!-- End Search Bar -->
 
-       <!-- STATISTIC-->
-       <section class="statistic">
-           <div class="section__content section__content--p30">
-               <div class="container-fluid">
-                   <div class="row">
-                       <div class="col-md-6 col-lg-3">
-                           <div class="statistic__item">
-                               <h2 class="number">10,368</h2>
-                               <span class="desc">members online</span>
-                               <div class="icon">
-                                   <i class="zmdi zmdi-account-o"></i>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="col-md-6 col-lg-3">
-                           <div class="statistic__item">
-                               <h2 class="number">388,688</h2>
-                               <span class="desc">items sold</span>
-                               <div class="icon">
-                                   <i class="zmdi zmdi-shopping-cart"></i>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="col-md-6 col-lg-3">
-                           <div class="statistic__item">
-                               <h2 class="number">1,086</h2>
-                               <span class="desc">this week</span>
-                               <div class="icon">
-                                   <i class="zmdi zmdi-calendar-note"></i>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="col-md-6 col-lg-3">
-                           <div class="statistic__item">
-                               <h2 class="number">$1,060,386</h2>
-                               <span class="desc">total earnings</span>
-                               <div class="icon">
-                                   <i class="zmdi zmdi-money"></i>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <!-- END STATISTIC-->
+<nav class="header-nav ms-auto">
+  <ul class="d-flex align-items-center">
 
-       <section>
-           <div class="section__content section__content--p30">
-               <div class="container-fluid">
-                   <div class="row">
-                       <div class="col-xl-8">
-                           <!-- RECENT REPORT 2-->
-                           <div class="recent-report2">
-                               <h3 class="title-3">recent reports</h3>
-                               <div class="chart-info">
-                                   <div class="chart-info__left">
-                                       <div class="chart-note">
-                                           <span class="dot dot--blue"></span>
-                                           <span>products</span>
-                                       </div>
-                                       <div class="chart-note">
-                                           <span class="dot dot--green"></span>
-                                           <span>Services</span>
-                                       </div>
-                                   </div>
-                                   <div class="chart-info-right">
-                                       <div class="rs-select2--dark rs-select2--md m-r-10">
-                                           <select class="js-select2" name="property">
-                                               <option selected="selected">All Properties</option>
-                                               <option value="">Products</option>
-                                               <option value="">Services</option>
-                                           </select>
-                                           <div class="dropDownSelect2"></div>
-                                       </div>
-                                       <div class="rs-select2--dark rs-select2--sm">
-                                           <select class="js-select2 au-select-dark" name="time">
-                                               <option selected="selected">All Time</option>
-                                               <option value="">By Month</option>
-                                               <option value="">By Day</option>
-                                           </select>
-                                           <div class="dropDownSelect2"></div>
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="recent-report__chart">
-                                   <canvas id="recent-rep2-chart"></canvas>
-                               </div>
-                           </div>
-                           <!-- END RECENT REPORT 2             -->
-                       </div>
-                       <div class="col-xl-4">
-                           <!-- TASK PROGRESS-->
-                           <div class="task-progress">
-                               <h3 class="title-3">task progress</h3>
-                               <div class="au-skill-container">
-                                   <div class="au-progress">
-                                       <span class="au-progress__title">Web Design</span>
-                                       <div class="au-progress__bar">
-                                           <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="90">
-                                               <span class="au-progress__value js-value"></span>
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="au-progress">
-                                       <span class="au-progress__title">HTML5/CSS3</span>
-                                       <div class="au-progress__bar">
-                                           <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="85">
-                                               <span class="au-progress__value js-value"></span>
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="au-progress">
-                                       <span class="au-progress__title">WordPress</span>
-                                       <div class="au-progress__bar">
-                                           <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="95">
-                                               <span class="au-progress__value js-value"></span>
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="au-progress">
-                                       <span class="au-progress__title">Support</span>
-                                       <div class="au-progress__bar">
-                                           <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="95">
-                                               <span class="au-progress__value js-value"></span>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <!-- END TASK PROGRESS-->
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </section>
+    <li class="nav-item d-block d-lg-none">
+      <a class="nav-link nav-icon search-bar-toggle " href="#">
+        <i class="bi bi-search"></i>
+      </a>
+    </li><!-- End Search Icon-->
 
-       <section>
-           <div class="section__content section__content--p30">
-               <div class="container-fluid">
-                   <div class="row">
-                       <div class="col-xl-6">
-                           <!-- USER DATA-->
-                           <div class="user-data m-b-40">
-                               <h3 class="title-3 m-b-30">
-                                   <i class="zmdi zmdi-account-calendar"></i>user data</h3>
-                               <div class="filters m-b-45">
-                                   <div class="rs-select2--dark rs-select2--md m-r-10 rs-select2--border">
-                                       <select class="js-select2" name="property">
-                                           <option selected="selected">All Properties</option>
-                                           <option value="">Products</option>
-                                           <option value="">Services</option>
-                                       </select>
-                                       <div class="dropDownSelect2"></div>
-                                   </div>
-                                   <div class="rs-select2--dark rs-select2--sm rs-select2--border">
-                                       <select class="js-select2 au-select-dark" name="time">
-                                           <option selected="selected">All Time</option>
-                                           <option value="">By Month</option>
-                                           <option value="">By Day</option>
-                                       </select>
-                                       <div class="dropDownSelect2"></div>
-                                   </div>
-                               </div>
-                               <div class="table-responsive table-data">
-                                   <table class="table">
-                                       <thead>
-                                           <tr>
-                                               <td>
-                                                   <label class="au-checkbox">
-                                                       <input type="checkbox">
-                                                       <span class="au-checkmark"></span>
-                                                   </label>
-                                               </td>
-                                               <td>name</td>
-                                               <td>role</td>
-                                               <td>type</td>
-                                               <td></td>
-                                           </tr>
-                                       </thead>
-                                       <tbody>
-                                           <tr>
-                                               <td>
-                                                   <label class="au-checkbox">
-                                                       <input type="checkbox">
-                                                       <span class="au-checkmark"></span>
-                                                   </label>
-                                               </td>
-                                               <td>
-                                                   <div class="table-data__info">
-                                                       <h6>lori lynch</h6>
-                                                       <span>
-                                                           <a href="#">johndoe@gmail.com</a>
-                                                       </span>
-                                                   </div>
-                                               </td>
-                                               <td>
-                                                   <span class="role admin">admin</span>
-                                               </td>
-                                               <td>
-                                                   <div class="rs-select2--trans rs-select2--sm">
-                                                       <select class="js-select2" name="property">
-                                                           <option selected="selected">Full Control</option>
-                                                           <option value="">Post</option>
-                                                           <option value="">Watch</option>
-                                                       </select>
-                                                       <div class="dropDownSelect2"></div>
-                                                   </div>
-                                               </td>
-                                               <td>
-                                                   <span class="more">
-                                                       <i class="zmdi zmdi-more"></i>
-                                                   </span>
-                                               </td>
-                                           </tr>
-                                           <tr>
-                                               <td>
-                                                   <label class="au-checkbox">
-                                                       <input type="checkbox" checked="checked">
-                                                       <span class="au-checkmark"></span>
-                                                   </label>
-                                               </td>
-                                               <td>
-                                                   <div class="table-data__info">
-                                                       <h6>lori lynch</h6>
-                                                       <span>
-                                                           <a href="#">johndoe@gmail.com</a>
-                                                       </span>
-                                                   </div>
-                                               </td>
-                                               <td>
-                                                   <span class="role user">user</span>
-                                               </td>
-                                               <td>
-                                                   <div class="rs-select2--trans rs-select2--sm">
-                                                       <select class="js-select2" name="property">
-                                                           <option value="">Full Control</option>
-                                                           <option value="" selected="selected">Post</option>
-                                                           <option value="">Watch</option>
-                                                       </select>
-                                                       <div class="dropDownSelect2"></div>
-                                                   </div>
-                                               </td>
-                                               <td>
-                                                   <span class="more">
-                                                       <i class="zmdi zmdi-more"></i>
-                                                   </span>
-                                               </td>
-                                           </tr>
-                                           <tr>
-                                               <td>
-                                                   <label class="au-checkbox">
-                                                       <input type="checkbox">
-                                                       <span class="au-checkmark"></span>
-                                                   </label>
-                                               </td>
-                                               <td>
-                                                   <div class="table-data__info">
-                                                       <h6>lori lynch</h6>
-                                                       <span>
-                                                           <a href="#">johndoe@gmail.com</a>
-                                                       </span>
-                                                   </div>
-                                               </td>
-                                               <td>
-                                                   <span class="role user">user</span>
-                                               </td>
-                                               <td>
-                                                   <div class="rs-select2--trans rs-select2--sm">
-                                                       <select class="js-select2" name="property">
-                                                           <option value="">Full Control</option>
-                                                           <option value="" selected="selected">Post</option>
-                                                           <option value="">Watch</option>
-                                                       </select>
-                                                       <div class="dropDownSelect2"></div>
-                                                   </div>
-                                               </td>
-                                               <td>
-                                                   <span class="more">
-                                                       <i class="zmdi zmdi-more"></i>
-                                                   </span>
-                                               </td>
-                                           </tr>
-                                           <tr>
-                                               <td>
-                                                   <label class="au-checkbox">
-                                                       <input type="checkbox">
-                                                       <span class="au-checkmark"></span>
-                                                   </label>
-                                               </td>
-                                               <td>
-                                                   <div class="table-data__info">
-                                                       <h6>lori lynch</h6>
-                                                       <span>
-                                                           <a href="#">johndoe@gmail.com</a>
-                                                       </span>
-                                                   </div>
-                                               </td>
-                                               <td>
-                                                   <span class="role member">member</span>
-                                               </td>
-                                               <td>
-                                                   <div class="rs-select2--trans rs-select2--sm">
-                                                       <select class="js-select2" name="property">
-                                                           <option selected="selected">Full Control</option>
-                                                           <option value="">Post</option>
-                                                           <option value="">Watch</option>
-                                                       </select>
-                                                       <div class="dropDownSelect2"></div>
-                                                   </div>
-                                               </td>
-                                               <td>
-                                                   <span class="more">
-                                                       <i class="zmdi zmdi-more"></i>
-                                                   </span>
-                                               </td>
-                                           </tr>
-                                       </tbody>
-                                   </table>
-                               </div>
-                               <div class="user-data__footer">
-                                   <button class="au-btn au-btn-load">load more</button>
-                               </div>
-                           </div>
-                           <!-- END USER DATA-->
-                       </div>
-                       <div class="col-xl-6">
-                           <!-- MAP DATA-->
-                           <div class="map-data m-b-40">
-                               <h3 class="title-3 m-b-30">
-                                   <i class="zmdi zmdi-map"></i>map data</h3>
-                               <div class="filters">
-                                   <div class="rs-select2--dark rs-select2--md m-r-10 rs-select2--border">
-                                       <select class="js-select2" name="property">
-                                           <option selected="selected">All Worldwide</option>
-                                           <option value="">Products</option>
-                                           <option value="">Services</option>
-                                       </select>
-                                       <div class="dropDownSelect2"></div>
-                                   </div>
-                                   <div class="rs-select2--dark rs-select2--sm rs-select2--border">
-                                       <select class="js-select2 au-select-dark" name="time">
-                                           <option selected="selected">All Time</option>
-                                           <option value="">By Month</option>
-                                           <option value="">By Day</option>
-                                       </select>
-                                       <div class="dropDownSelect2"></div>
-                                   </div>
-                               </div>
-                               <div class="map-wrap m-t-45 m-b-80">
-                                   <div id="vmap" style="height: 284px;"></div>
-                               </div>
-                               <div class="table-wrap">
-                                   <div class="table-responsive table-style1">
-                                       <table class="table">
-                                           <tbody>
-                                               <tr>
-                                                   <td>United States</td>
-                                                   <td>$119,366.96</td>
-                                               </tr>
-                                               <tr>
-                                                   <td>Australia</td>
-                                                   <td>$70,261.65</td>
-                                               </tr>
-                                               <tr>
-                                                   <td>United Kingdom</td>
-                                                   <td>$46,399.22</td>
-                                               </tr>
-                                           </tbody>
-                                       </table>
-                                   </div>
-                                   <div class="table-responsive table-style1">
-                                       <table class="table">
-                                           <tbody>
-                                               <tr>
-                                                   <td>Germany</td>
-                                                   <td>$20,366.96</td>
-                                               </tr>
-                                               <tr>
-                                                   <td>France</td>
-                                                   <td>$10,366.96</td>
-                                               </tr>
-                                               <tr>
-                                                   <td>Russian</td>
-                                                   <td>$5,366.96</td>
-                                               </tr>
-                                           </tbody>
-                                       </table>
-                                   </div>
-                               </div>
-                           </div>
-                           <!-- END MAP DATA-->
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </section>
+    <li class="nav-item dropdown">
 
-       <section>
-           <div class="container-fluid">
-               <div class="row">
-                   <div class="col-md-12">
-                       <div class="copyright">
-                           <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <!-- END PAGE CONTAINER-->
-   </div>
+      <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+        <i class="bi bi-bell"></i>
+        <span class="badge bg-primary badge-number">4</span>
+      </a><!-- End Notification Icon -->
+
+      <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+        <li class="dropdown-header">
+          You have 4 new notifications
+          <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li class="notification-item">
+          <i class="bi bi-exclamation-circle text-warning"></i>
+          <div>
+            <h4>Lorem Ipsum</h4>
+            <p>Quae dolorem earum veritatis oditseno</p>
+            <p>30 min. ago</p>
+          </div>
+        </li>
+
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li class="notification-item">
+          <i class="bi bi-x-circle text-danger"></i>
+          <div>
+            <h4>Atque rerum nesciunt</h4>
+            <p>Quae dolorem earum veritatis oditseno</p>
+            <p>1 hr. ago</p>
+          </div>
+        </li>
+
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li class="notification-item">
+          <i class="bi bi-check-circle text-success"></i>
+          <div>
+            <h4>Sit rerum fuga</h4>
+            <p>Quae dolorem earum veritatis oditseno</p>
+            <p>2 hrs. ago</p>
+          </div>
+        </li>
+
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li class="notification-item">
+          <i class="bi bi-info-circle text-primary"></i>
+          <div>
+            <h4>Dicta reprehenderit</h4>
+            <p>Quae dolorem earum veritatis oditseno</p>
+            <p>4 hrs. ago</p>
+          </div>
+        </li>
+
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li class="dropdown-footer">
+          <a href="#">Show all notifications</a>
+        </li>
+
+      </ul><!-- End Notification Dropdown Items -->
+
+    </li><!-- End Notification Nav -->
+
+    <li class="nav-item dropdown">
+
+      <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+        <i class="bi bi-chat-left-text"></i>
+        <span class="badge bg-success badge-number">3</span>
+      </a><!-- End Messages Icon -->
+
+      <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+        <li class="dropdown-header">
+          You have 3 new messages
+          <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li class="message-item">
+          <a href="#">
+            <img src="../../../dashboard_css/assets/img/messages-1.jpg" alt="" class="rounded-circle">
+            <div>
+              <h4>Maria Hudson</h4>
+              <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+              <p>4 hrs. ago</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li class="message-item">
+          <a href="#">
+            <img src="../../../dashboard_css/assets/img/messages-2.jpg" alt="" class="rounded-circle">
+            <div>
+              <h4>Anna Nelson</h4>
+              <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+              <p>6 hrs. ago</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li class="message-item">
+          <a href="#">
+            <img src="../../../dashboard_css/assets/img/messages-3.jpg" alt="" class="rounded-circle">
+            <div>
+              <h4>David Muldon</h4>
+              <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+              <p>8 hrs. ago</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li class="dropdown-footer">
+          <a href="#">Show all messages</a>
+        </li>
+
+      </ul><!-- End Messages Dropdown Items -->
+
+    </li><!-- End Messages Nav -->
+
+    <li class="nav-item dropdown pe-3">
+
+      <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+        <img src="../../../dashboard_css/assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+        <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+      </a><!-- End Profile Iamge Icon -->
+
+      <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+        <li class="dropdown-header">
+          <h6>Kevin Anderson</h6>
+          <span>Web Designer</span>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+            <i class="bi bi-person"></i>
+            <span>My Profile</span>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+            <i class="bi bi-gear"></i>
+            <span>Account Settings</span>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+            <i class="bi bi-question-circle"></i>
+            <span>Need Help?</span>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <i class="bi bi-box-arrow-right"></i>
+            <span>Sign Out</span>
+          </a>
+        </li>
+
+      </ul><!-- End Profile Dropdown Items -->
+    </li><!-- End Profile Nav -->
+
+  </ul>
+</nav><!-- End Icons Navigation -->
+
+</header><!-- End Header -->
+
+<!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+<ul class="sidebar-nav" id="sidebar-nav">
+
+  <li class="nav-item">
+    <a class="nav-link " href="index.html">
+      <i class="bi bi-grid"></i>
+      <span>Dashboard</span>
+    </a>
+  </li><!-- End Dashboard Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="components-alerts.html">
+          <i class="bi bi-circle"></i><span>Alerts</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-accordion.html">
+          <i class="bi bi-circle"></i><span>Accordion</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-badges.html">
+          <i class="bi bi-circle"></i><span>Badges</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-breadcrumbs.html">
+          <i class="bi bi-circle"></i><span>Breadcrumbs</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-buttons.html">
+          <i class="bi bi-circle"></i><span>Buttons</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-cards.html">
+          <i class="bi bi-circle"></i><span>Cards</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-carousel.html">
+          <i class="bi bi-circle"></i><span>Carousel</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-list-group.html">
+          <i class="bi bi-circle"></i><span>List group</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-modal.html">
+          <i class="bi bi-circle"></i><span>Modal</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-tabs.html">
+          <i class="bi bi-circle"></i><span>Tabs</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-pagination.html">
+          <i class="bi bi-circle"></i><span>Pagination</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-progress.html">
+          <i class="bi bi-circle"></i><span>Progress</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-spinners.html">
+          <i class="bi bi-circle"></i><span>Spinners</span>
+        </a>
+      </li>
+      <li>
+        <a href="components-tooltips.html">
+          <i class="bi bi-circle"></i><span>Tooltips</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Components Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-journal-text"></i><span>Forms</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="forms-elements.html">
+          <i class="bi bi-circle"></i><span>Form Elements</span>
+        </a>
+      </li>
+      <li>
+        <a href="forms-layouts.html">
+          <i class="bi bi-circle"></i><span>Form Layouts</span>
+        </a>
+      </li>
+      <li>
+        <a href="forms-editors.html">
+          <i class="bi bi-circle"></i><span>Form Editors</span>
+        </a>
+      </li>
+      <li>
+        <a href="forms-validation.html">
+          <i class="bi bi-circle"></i><span>Form Validation</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Forms Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="tables-general.html">
+          <i class="bi bi-circle"></i><span>General Tables</span>
+        </a>
+      </li>
+      <li>
+        <a href="tables-data.html">
+          <i class="bi bi-circle"></i><span>Data Tables</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Tables Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="charts-chartjs.html">
+          <i class="bi bi-circle"></i><span>Chart.js</span>
+        </a>
+      </li>
+      <li>
+        <a href="charts-apexcharts.html">
+          <i class="bi bi-circle"></i><span>ApexCharts</span>
+        </a>
+      </li>
+      <li>
+        <a href="charts-echarts.html">
+          <i class="bi bi-circle"></i><span>ECharts</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Charts Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="icons-bootstrap.html">
+          <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+        </a>
+      </li>
+      <li>
+        <a href="icons-remix.html">
+          <i class="bi bi-circle"></i><span>Remix Icons</span>
+        </a>
+      </li>
+      <li>
+        <a href="icons-boxicons.html">
+          <i class="bi bi-circle"></i><span>Boxicons</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Icons Nav -->
+
+  <li class="nav-heading">Pages</li>
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="users-profile.html">
+      <i class="bi bi-person"></i>
+      <span>Profile</span>
+    </a>
+  </li><!-- End Profile Page Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="pages-faq.html">
+      <i class="bi bi-question-circle"></i>
+      <span>F.A.Q</span>
+    </a>
+  </li><!-- End F.A.Q Page Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="pages-contact.html">
+      <i class="bi bi-envelope"></i>
+      <span>Contact</span>
+    </a>
+  </li><!-- End Contact Page Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="pages-register.html">
+      <i class="bi bi-card-list"></i>
+      <span>Register</span>
+    </a>
+  </li><!-- End Register Page Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="pages-login.html">
+      <i class="bi bi-box-arrow-in-right"></i>
+      <span>Login</span>
+    </a>
+  </li><!-- End Login Page Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="pages-error-404.html">
+      <i class="bi bi-dash-circle"></i>
+      <span>Error 404</span>
+    </a>
+  </li><!-- End Error 404 Page Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="pages-blank.html">
+      <i class="bi bi-file-earmark"></i>
+      <span>Blank</span>
+    </a>
+  </li><!-- End Blank Page Nav -->
+
+</ul>
+
+</aside><!-- End Sidebar-->
+
+<main id="main" class="main">
+
+<div class="pagetitle">
+  <h1>Dashboard</h1>
+  <nav>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active">Dashboard</li>
+    </ol>
+  </nav>
+</div><!-- End Page Title -->
+
+<section class="section dashboard">
+  <div class="row">
+
+    <!-- Left side columns -->
+    <div class="col-lg-8">
+      <div class="row">
+
+        <!-- Sales Card -->
+        <div class="col-xxl-4 col-md-6">
+          <div class="card info-card sales-card">
+
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">Sales <span>| Today</span></h5>
+
+              <div class="d-flex align-items-center">
+                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                  <i class="bi bi-cart"></i>
+                </div>
+                <div class="ps-3">
+                  <h6>145</h6>
+                  <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- End Sales Card -->
+
+        <!-- Revenue Card -->
+        <div class="col-xxl-4 col-md-6">
+          <div class="card info-card revenue-card">
+
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">Revenue <span>| This Month</span></h5>
+
+              <div class="d-flex align-items-center">
+                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                  <i class="bi bi-currency-dollar"></i>
+                </div>
+                <div class="ps-3">
+                  <h6>$3,264</h6>
+                  <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- End Revenue Card -->
+
+        <!-- Customers Card -->
+        <div class="col-xxl-4 col-xl-12">
+
+          <div class="card info-card customers-card">
+
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">Customers <span>| This Year</span></h5>
+
+              <div class="d-flex align-items-center">
+                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                  <i class="bi bi-people"></i>
+                </div>
+                <div class="ps-3">
+                  <h6>1244</h6>
+                  <span class="text-danger small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">decrease</span>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div><!-- End Customers Card -->
+
+        <!-- Reports -->
+        <div class="col-12">
+          <div class="card">
+
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            
+
+          </div>
+        </div><!-- End Reports -->
+
+        <!-- Recent Sales -->
+        <div class="col-12">
+          <div class="card recent-sales overflow-auto">
+
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">Recent Sales <span>| Today</span></h5>
+
+              <table class="table table-borderless datatable">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Customer</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><a href="#">#2457</a></th>
+                    <td>Brandon Jacob</td>
+                    <td><a href="#" class="text-primary">At praesentium minu</a></td>
+                    <td>$64</td>
+                    <td><span class="badge bg-success">Approved</span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#">#2147</a></th>
+                    <td>Bridie Kessler</td>
+                    <td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td>
+                    <td>$47</td>
+                    <td><span class="badge bg-warning">Pending</span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#">#2049</a></th>
+                    <td>Ashleigh Langosh</td>
+                    <td><a href="#" class="text-primary">At recusandae consectetur</a></td>
+                    <td>$147</td>
+                    <td><span class="badge bg-success">Approved</span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#">#2644</a></th>
+                    <td>Angus Grady</td>
+                    <td><a href="#" class="text-primar">Ut voluptatem id earum et</a></td>
+                    <td>$67</td>
+                    <td><span class="badge bg-danger">Rejected</span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#">#2644</a></th>
+                    <td>Raheem Lehner</td>
+                    <td><a href="#" class="text-primary">Sunt similique distinctio</a></td>
+                    <td>$165</td>
+                    <td><span class="badge bg-success">Approved</span></td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+
+          </div>
+        </div><!-- End Recent Sales -->
+
+        <!-- Top Selling -->
+        <div class="col-12">
+          <div class="card top-selling overflow-auto">
+
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body pb-0">
+              <h5 class="card-title">Top Selling <span>| Today</span></h5>
+
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th scope="col">Preview</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Sold</th>
+                    <th scope="col">Revenue</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><a href="#"><img src="../../../dashboard_css/assets/img/product-1.jpg" alt=""></a></th>
+                    <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa voluptas nulla</a></td>
+                    <td>$64</td>
+                    <td class="fw-bold">124</td>
+                    <td>$5,828</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#"><img src="../../../dashboard_css/assets/img/product-2.jpg" alt=""></a></th>
+                    <td><a href="#" class="text-primary fw-bold">Exercitationem similique doloremque</a></td>
+                    <td>$46</td>
+                    <td class="fw-bold">98</td>
+                    <td>$4,508</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#"><img src="../../../dashboard_css/assets/img/product-3.jpg" alt=""></a></th>
+                    <td><a href="#" class="text-primary fw-bold">Doloribus nisi exercitationem</a></td>
+                    <td>$59</td>
+                    <td class="fw-bold">74</td>
+                    <td>$4,366</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#"><img src="../../../dashboard_css/assets/img/product-4.jpg" alt=""></a></th>
+                    <td><a href="#" class="text-primary fw-bold">Officiis quaerat sint rerum error</a></td>
+                    <td>$32</td>
+                    <td class="fw-bold">63</td>
+                    <td>$2,016</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#"><img src="../../../dashboard_css/assets/img/product-5.jpg" alt=""></a></th>
+                    <td><a href="#" class="text-primary fw-bold">Sit unde debitis delectus repellendus</a></td>
+                    <td>$79</td>
+                    <td class="fw-bold">41</td>
+                    <td>$3,239</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+
+          </div>
+        </div><!-- End Top Selling -->
+
+      </div>
+    </div><!-- End Left side columns -->
+
+    <!-- Right side columns -->
+    <div class="col-lg-4">
+
+      <!-- Recent Activity -->
+      <div class="card">
+        <div class="filter">
+          <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+            <li class="dropdown-header text-start">
+              <h6>Filter</h6>
+            </li>
+
+            <li><a class="dropdown-item" href="#">Today</a></li>
+            <li><a class="dropdown-item" href="#">This Month</a></li>
+            <li><a class="dropdown-item" href="#">This Year</a></li>
+          </ul>
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Recent Activity <span>| Today</span></h5>
+
+          <div class="activity">
+
+            <div class="activity-item d-flex">
+              <div class="activite-label">32 min</div>
+              <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+              <div class="activity-content">
+                Quia quae rerum <a href="#" class="fw-bold text-dark">explicabo officiis</a> beatae
+              </div>
+            </div><!-- End activity item-->
+
+            <div class="activity-item d-flex">
+              <div class="activite-label">56 min</div>
+              <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
+              <div class="activity-content">
+                Voluptatem blanditiis blanditiis eveniet
+              </div>
+            </div><!-- End activity item-->
+
+            <div class="activity-item d-flex">
+              <div class="activite-label">2 hrs</div>
+              <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
+              <div class="activity-content">
+                Voluptates corrupti molestias voluptatem
+              </div>
+            </div><!-- End activity item-->
+
+            <div class="activity-item d-flex">
+              <div class="activite-label">1 day</div>
+              <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
+              <div class="activity-content">
+                Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
+              </div>
+            </div><!-- End activity item-->
+
+            <div class="activity-item d-flex">
+              <div class="activite-label">2 days</div>
+              <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
+              <div class="activity-content">
+                Est sit eum reiciendis exercitationem
+              </div>
+            </div><!-- End activity item-->
+
+            <div class="activity-item d-flex">
+              <div class="activite-label">4 weeks</div>
+              <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
+              <div class="activity-content">
+                Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
+              </div>
+            </div><!-- End activity item-->
+
+          </div>
+
+        </div>
+      </div><!-- End Recent Activity -->
+
+      <!-- Budget Report -->
+      <div class="card">
+        <div class="filter">
+          <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+            <li class="dropdown-header text-start">
+              <h6>Filter</h6>
+            </li>
+
+            <li><a class="dropdown-item" href="#">Today</a></li>
+            <li><a class="dropdown-item" href="#">This Month</a></li>
+            <li><a class="dropdown-item" href="#">This Year</a></li>
+          </ul>
+        </div>
+ 
+      </div><!-- End Budget Report -->
+
+      <!-- Website Traffic -->
+      <div class="card">
+        <div class="filter">
+          <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+            <li class="dropdown-header text-start">
+              <h6>Filter</h6>
+            </li>
+
+            <li><a class="dropdown-item" href="#">Today</a></li>
+            <li><a class="dropdown-item" href="#">This Month</a></li>
+            <li><a class="dropdown-item" href="#">This Year</a></li>
+          </ul>
+        </div>
+
+        
+      </div><!-- End Website Traffic -->
+
+      <!-- News & Updates Traffic -->
+      <div class="card">
+        <div class="filter">
+          <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+            <li class="dropdown-header text-start">
+              <h6>Filter</h6>
+            </li>
+
+            <li><a class="dropdown-item" href="#">Today</a></li>
+            <li><a class="dropdown-item" href="#">This Month</a></li>
+            <li><a class="dropdown-item" href="#">This Year</a></li>
+          </ul>
+        </div>
+
+        <div class="card-body pb-0">
+          <h5 class="card-title">News &amp; Updates <span>| Today</span></h5>
+
+          <div class="news">
+            <div class="post-item clearfix">
+              <img src="../../../dashboard_css/assets/img/news-1.jpg" alt="">
+              <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
+              <p>Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum...</p>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="../../../dashboard_css/assets/img/news-2.jpg" alt="">
+              <h4><a href="#">Quidem autem et impedit</a></h4>
+              <p>Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nande...</p>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="../../../dashboard_css/assets/img/news-3.jpg" alt="">
+              <h4><a href="#">Id quia et et ut maxime similique occaecati ut</a></h4>
+              <p>Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et totam...</p>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="../../../dashboard_css/assets/img/news-4.jpg" alt="">
+              <h4><a href="#">Laborum corporis quo dara net para</a></h4>
+              <p>Qui enim quia optio. Eligendi aut asperiores enim repellendusvel rerum cuder...</p>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="../../../dashboard_css/assets/img/news-5.jpg" alt="">
+              <h4><a href="#">Et dolores corrupti quae illo quod dolor</a></h4>
+              <p>Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae dignissimos eius...</p>
+            </div>
+
+          </div><!-- End sidebar recent posts-->
+
+        </div>
+      </div><!-- End News & Updates -->
+
+    </div><!-- End Right side columns -->
+
+  </div>
+</section>
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+<div class="copyright">
+  &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+</div>
+<div class="credits">
+  <!-- All the links in the footer should remain intact. -->
+  <!-- You can delete the links only if you purchased the pro version. -->
+  <!-- Licensing information: https://bootstrapmade.com/license/ -->
+  <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+</div>
+</footer><!-- End Footer -->
   </fragment>
  
  
