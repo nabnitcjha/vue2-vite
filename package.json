@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.22.0",
     "pinia": "^2.0.23",
     "vue": "^2.7.13",
     "vue-fragment": "^1.6.0",
